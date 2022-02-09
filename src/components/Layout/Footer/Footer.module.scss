@@ -1,0 +1,23 @@
+.footer {
+    background-color: rgba(65, 65, 65, 1);
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: 0 auto;
+        .nav {
+            .ul {
+                .li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: #e7e3d4;
+                        font-size: 1.8rem;
+                        padding: 1.2rem 2.4rem;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
